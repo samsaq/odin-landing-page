@@ -11,23 +11,26 @@ body {
     height: 5vh; /*change proportion later as needed*/
     font-size: 3rem;
     padding: 2rem;
+    padding-top: 0;
     display: flex;
     justify-content: space-around;
 }
 
 .top.siteIntroHolder {
-    height: 15vh;
+    height: 20vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 2rem;
+    padding-inline: 12.5rem;
 }
 
 .top.sub.text.left {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-content: center;
     flex-direction: column;
+    flex: 1;
 }
 
 .sub.top.introTitle {
@@ -45,10 +48,15 @@ body {
     background-color: #3882F6;
     color: #F9FAf8;
     border: none;
-    border-radius: 5px;
+    border-radius: .5rem;
     font-weight: bold;
     font-size: 18px;
-    padding: 32px;
+    padding: 0.5rem;
+    padding-inline: 1rem;
+}
+
+.buttonContainment {
+    display: inline-block
 }
 
 .sub.top.image.right {
@@ -57,7 +65,8 @@ body {
 
 #introImage {
     height: calc(15vh - 32px);
-    width: calc(100% - 32px);
+    width: calc(100% - 32px); /*If using an image with a better aspect ratio, swap to auto to follow it*/
+    margin-inline: 2rem;
 }
 
 div#subHeaderLeft {
