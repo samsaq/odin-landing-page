@@ -17,12 +17,12 @@ body {
 }
 
 .top.siteIntroHolder {
-    height: 20vh;
+    height: 30vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 2rem;
-    padding-inline: 12.5rem;
+    padding-inline: 20vh;
 }
 
 .top.sub.text.left {
@@ -64,7 +64,7 @@ body {
 }
 
 #introImage {
-    height: calc(15vh - 32px);
+    height: calc(30vh - 32px);
     width: calc(100% - 32px); /*If using an image with a better aspect ratio, swap to auto to follow it*/
     margin-inline: 2rem;
 }
@@ -90,4 +90,63 @@ div.subheaderRightLink {
 .top {
     background: #1f2937;
     color: #F9FAf8;
+}
+
+.middle.imgBarHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.middle.barTitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.middle.imgBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.middle.bar.member {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 10rem;
+}
+
+.middle.image {
+    border-radius: 8px;
+    border-color: #3882F6;
+    border-width: 2px;
+    border-style: solid;
+    height: 10rem;
+    width: 10rem;
+    margin: 0.5rem;
+}
+
+.middle.subtext {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.middle.quoteHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #E5E7EB;
+    
 }
