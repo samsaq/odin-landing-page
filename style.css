@@ -22,7 +22,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 2rem;
-    padding-inline: 20vh;
+    padding-inline: 38vh;
 }
 
 .top.sub.text.left {
@@ -31,6 +31,7 @@ body {
     align-content: center;
     flex-direction: column;
     flex: 1;
+    margin: 1rem;
 }
 
 .sub.top.introTitle {
@@ -42,6 +43,8 @@ body {
 .sub.top.introSubText {
     font-size: 18px;
     color: #E5E7EB;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .sub.top.introButton {
@@ -61,6 +64,11 @@ body {
 
 .sub.top.image.right {
     flex: 1;
+    border-radius: 1rem;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-width: 2px;
+    margin: 1rem;
 }
 
 #introImage {
@@ -97,6 +105,7 @@ div.subheaderRightLink {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 4rem;
 }
 
 .middle.barTitle {
@@ -146,7 +155,87 @@ div.subheaderRightLink {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 1rem;
     background-color: #E5E7EB;
-    
+    padding-top: 5rem;
+    padding-bottom: 5rem;;
+}
+
+.middle.quoteParagraph{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    width:85vh;
+    font-style: italic;
+}
+
+.middle.quote.creditHolder{
+    display: flex;
+    justify-content: flex-end;
+    width: 85vh;
+}
+
+.middle.quoteCredit{
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+}
+
+.bottom.callHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.bottom.callBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAf8;
+    padding-inline: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 0.5rem;
+}
+
+.bottom.callTitle{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAf8;
+}
+
+.bottom.callText{
+    font-size: 18px;
+    color: #F9FAf8;
+}
+
+.bottom.callButton {
+    background-color: #3882F6;
+    color: #F9FAf8;
+    border: solid;
+    border-radius: .5rem;
+    border-width: 2px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0.5rem;
+    padding-inline: 1rem;
+    margin-inline-start: 3rem;
+}
+
+.bottom.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAf8;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.bottom.footerText {
+    font-size: 18px;
+    color: #F9FAf8;
 }
